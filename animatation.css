@@ -1,0 +1,22 @@
+@keyframes box{
+    from{
+        background-color: red;
+        transform: translate(0px);
+    }
+    to{
+        background-color: green;
+        transform: translate(30px);
+        
+    }
+}
+.main{
+    height: 500px;
+    width: 1200px;
+    animation: box;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-iteration-count:infinite ;
+    animation-direction: normal;
+
+}

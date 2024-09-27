@@ -1,0 +1,9 @@
+.main{
+    height: 300px;
+    width: 1000px;
+    background-color: greenyellow;
+}
+.main:hover{
+    transform:translate(300px) skew(10deg);
+    transition: 2s ease-in;
+}
